@@ -5,11 +5,9 @@ import (
 	"strconv"
 
 	"github.com/KushalP47/go-blockchain/blockchain"
-	"rsc.io/quote"
 )
 
 func main() {
-	fmt.Println(quote.Hello())
 	chain := blockchain.InitBlockchain()
 
 	chain.AddBlock("First Block After Genesis")
